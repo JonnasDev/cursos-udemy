@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+}
+header{
+  background-color:#35b8b0;
+ height: 30px;
+ padding: 20px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+footer{
+  background-color: #35b8b0;
+  height: 50px;
+padding: 5px 0px 0px 5px;
+  clear: both;
+  text-align: center;
+  font-family:  Helvetica,Arial, sans-serif;
+}
+h1{
+  color: white;
+  text-align: center;
+  margin: 0 0 50px 0;
+  text-shadow: 1px 1px 1px #111111;
+}
+
+p{
+  text-shadow: 1px 1px 1px #111111;
+}
+
+/* CLASS */
+.container{
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+justify-content: center;
+}
+
+.efeito{
+  background-color:rgba(0,0,0,0.5) ;
+}
+
+/* ID */
+#div-conteudo{
+color: aliceblue;
+min-height: 200px;
+width: 100%;
+background-image: url('background.jpg');
+background-size: 100%;
+padding: 10px ;
+
+}
+
